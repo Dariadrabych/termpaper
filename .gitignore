@@ -1,0 +1,22 @@
+# Node.js
+node_modules/
+.env
+
+# Vite
+dist/
+
+# Java / Spring
+target/
+*.log
+
+# IDE
+.idea/
+.vscode/
+*.iml
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Secrets
+application.properties

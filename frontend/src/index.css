@@ -1,0 +1,37 @@
+:root {
+  --ks-primary: #3b001e;      /* бордо */
+  --ks-primary-soft: #5a1034;
+  --ks-accent: #ffb33a;
+  --ks-bg: #0f000a;
+  --ks-card: #1c0312;
+  --ks-text: #fdf0ff;
+  --ks-muted: #b99ac5;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Inter',
+    'Segoe UI', sans-serif;
+  background: radial-gradient(circle at top, #3b001e 0, #0f000a 45%, #050005 100%);
+  color: var(--ks-text);
+}
+
+button {
+  cursor: pointer;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #1a0210;
+}
+::-webkit-scrollbar-thumb {
+  background: var(--ks-primary-soft);
+  border-radius: 4px;
+}
